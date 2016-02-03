@@ -1,0 +1,5 @@
+# pass everything through the index.php file
+Options +FollowSymLinks
+
+RewriteEngine on
+RewriteRule .* index.php
